@@ -10,7 +10,7 @@ function MernProject() {
       <img
         src={bg}
         alt="background"
-        className="fixed inset-0 w-full h-full object-cover"
+        className="fixed w-full h-full object-cover"
       />
       <div className="relative flex flex-col items-center h-full w-full p-5 ">
         <div className="">
@@ -19,7 +19,7 @@ function MernProject() {
           </p>
         </div>
         {/* project--1 */}
-        <div className="flex flex-col lg:flex-row md:flex-row sm:flex-col w-full shadow-md shadow-teal-300 max-w-4xl mt-5 p-2 bg-gray-900 bg-opacity-70 items-center ">
+        <div className="flex flex-col lg:flex-row md:flex-row sm:flex-col shadow-md shadow-teal-300 max-w-4xl mt-5 p-2 bg-gray-900 bg-opacity-70 items-center ">
           {/* left */}
           <div className="lg:w-2/6 md:w-2/6 md:pl-4 rounded-lg flex mt-4 justify-center">
             <img
@@ -111,7 +111,7 @@ function MernProject() {
         </div>
 
         {/* project--2 */}
-        <div className="flex flex-col lg:flex-row md:flex-row sm:flex-col w-full shadow-md shadow-teal-300 max-w-4xl mt-5 p-2 bg-gray-900 bg-opacity-70 items-center ">
+        <div className="flex flex-col lg:flex-row md:flex-row sm:flex-col shadow-md shadow-teal-300 max-w-4xl mt-5 p-2 bg-gray-900 bg-opacity-70 items-center ">
           {/* right */}
           <div className="lg:w-4/6 md:w-4/6 lg:p-4 md:p-4 sm:p-0 sm:mt-4 flex flex-col justify-center items-center p--">
             <div className="flex items-center justify-center w-60 p-2 border-transparent rounded-lg shadow-md shadow-cyan-300">

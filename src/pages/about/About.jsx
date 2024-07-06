@@ -15,15 +15,15 @@ function About() {
               </h1>
               {/* <div className="absolute inset-0 bg-gradient-to-r from-teal-300 to-teal-200 rounded-lg blur opacity-50 mix-blend-overlay"></div> */}
             </div>
-            <div className="flex flex-col lg:flex-row md:flex-col sm:flex-col gap-10 mt-9 ml-16 mr-10 justify-center">
+            <div className="flex flex-col lg:flex-row md:flex-col sm:flex-col gap-10 mt-9 ml-16 mr-12 justify-center">
               {/* left */}
               <div className="flex flex-row justify-center">
-                <div className="h-[320px] w-[320px] border-2 rounded-full border-blue-300 shadow-xl shadow-blue-400"></div>
+                <div className="lg:h-[320px] lg:w-[320px] md::h-[320px] md:w-[320px] sm:h-[320px] sm:w-[320px] h-[270px] w-[270px] border-2 rounded-full border-blue-300 shadow-xl shadow-blue-400"></div>
                 <div className="absolute mt-10 ml-10 shadow-md transform transition-all animate-traverse">
                   <img
                     src={image}
                     alt="photo"
-                    className="h-[300px] w-[300px] rounded-full  border-2 border-orange-300 shadow-md shadow-orange-200 "
+                    className="lg:h-[300px] lg:w-[300px] md:h-[300px] md:w-[300px] sm:h-[300px] sm:w-[300px] h-[250px] w-[250px] rounded-full  border-2 border-orange-300 shadow-md shadow-orange-200 "
                   ></img>
                 </div>
               </div>

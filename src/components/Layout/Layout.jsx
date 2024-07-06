@@ -24,8 +24,8 @@ function Layout() {
   return (
     <div className="flex flex-row">
       <div
-        className={`h-[100vh] fixed bg-gradient-to-br from-gray-600 to-slate-900 border-2 border-slate-400 rounded-xl overflow-hidden transition-all duration-300 ${
-          toggle ? "w-[220px]" : "w-[90px]"
+        className={`lg:h-[100vh] md:h-[100vh] sm:h-0 sm:w-0 h-0 w-0 fixed bg-gradient-to-br from-gray-600 to-slate-900 border-2 border-slate-400 rounded-xl overflow-hidden transition-all duration-300 ${
+          toggle ? "lg:w-[220px] md:w-[220px]" : "lg:w-[90px] md:w-[90px]"
         }`}
       >
         <div className="flex justify-end cursor-pointer">
@@ -49,12 +49,12 @@ function Layout() {
       </div>
       <div
         className={`flex-grow overflow-hidden transition-all duration-300 h-full ${
-          toggle ? "ml-[220px]" : "ml-[90px]"
+          toggle ? "lg:ml-[220px] md:ml-[220px]" : "lg:ml-[90px] md:ml-[90px]"
         }`}
       >
         <video
           className={`fixed -z-10 inset-0 w-full object-cover flex-grow overflow-hidden transition-all opacity-95 duration-300 h-full ${
-            toggle ? "ml-[220px]" : "ml-[90px]"
+            toggle ? "lg:ml-[220px] md:ml-[220px]" : "lg:ml-[90px] md:ml-[90px]"
           }`}
           autoPlay
           loop
