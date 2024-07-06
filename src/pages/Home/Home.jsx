@@ -29,7 +29,7 @@ function Home() {
                 />
               </h2>
 
-              <div className="mt-4 ml-6 sm:w-[400px] md:w-[600px] lg:w-[800px]">
+              <div className="mt-4 ml-6 sm:w-[400px] md:w-[500px] lg:w-[800px]">
                 <h3 className="text-sm font-semibold text-gray-400 overflow-hidden text-balance">
                   I am a passionate and results-driven software engineer with [X
                   years] of experience in developing robust and scalable
