@@ -1,0 +1,6 @@
+@keyframes traverse {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(5px, 5px); } /* Adjust the values for x and y direction */
+    100% { transform: translate(0, 0); }
+  }
+  
