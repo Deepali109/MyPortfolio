@@ -7,8 +7,8 @@ import { GrTechnology } from "react-icons/gr";
 import { FaBookOpenReader } from "react-icons/fa6";
 import { AiOutlineProject } from "react-icons/ai";
 import { FaHouseUser } from "react-icons/fa";
-import Zoom from "react-reveal/Zoom";
-import Fade from 'react-reveal/Fade';
+import { Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import {
   Link,
   Button,
@@ -34,107 +34,107 @@ function Menus({ toggle }) {
               ></img>
             </div>
           </Zoom>
-          <Fade left>
-          <div className="">
+          <Fade>
             <div className="">
-              {/* <div className="flex mt-3 ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
-              <Link
-                to="home"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={200}
-                className="flex mt-3 ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
-              >
-                <IoHome size={17} color="white" />
-                Home
-              </Link>
-              {/* </div> */}
+              <div className="">
+                {/* <div className="flex mt-3 ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={200}
+                  className="flex mt-3 ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
+                >
+                  <IoHome size={17} color="white" />
+                  Home
+                </Link>
+                {/* </div> */}
 
-              {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
-              <Link
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
-              >
-                <MdOutlineRoundaboutRight size={17} color="white" />
-                About
-              </Link>
-              {/* </div> */}
+                {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
+                >
+                  <MdOutlineRoundaboutRight size={17} color="white" />
+                  About
+                </Link>
+                {/* </div> */}
 
-              {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
-              <Link
-                to="experience"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
-              >
-                <MdOutlineComputer size={17} color="white" />
-                Experience
-              </Link>
-              {/* </div> */}
+                {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
+                <Link
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
+                >
+                  <MdOutlineComputer size={17} color="white" />
+                  Experience
+                </Link>
+                {/* </div> */}
 
-              {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
-              <Link
-                to="skills"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
-              >
-                <GrTechnology size={17} color="white" />
-                Skills
-              </Link>
+                {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
+                <Link
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
+                >
+                  <GrTechnology size={17} color="white" />
+                  Skills
+                </Link>
 
-              {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
-              <Link
-                to="education"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
-              >
-                <FaBookOpenReader size={17} color="white" />
-                Education
-              </Link>
-              {/* </div> */}
+                {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
+                <Link
+                  to="education"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
+                >
+                  <FaBookOpenReader size={17} color="white" />
+                  Education
+                </Link>
+                {/* </div> */}
 
-              {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
-              <Link
-                to="project"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
-              >
-                <AiOutlineProject size={17} color="white" />
-                Projects
-              </Link>
-              {/* </div> */}
+                {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
+                <Link
+                  to="project"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
+                >
+                  <AiOutlineProject size={17} color="white" />
+                  Projects
+                </Link>
+                {/* </div> */}
 
-              {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
-              <Link
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
-              >
-                <FaHouseUser size={17} color="white" />
-                Contact
-              </Link>
-              {/* </div> */}
+                {/* <div className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"> */}
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="flex ml-8 text-white text-sm gap-3 items-center p-2 mr-5 cursor-pointer transition-transform duration-200 transform hover:scale-105 hover:border hover:border-1 hover:shadow-md hover:rounded-lg hover:border-gray-700"
+                >
+                  <FaHouseUser size={17} color="white" />
+                  Contact
+                </Link>
+                {/* </div> */}
+              </div>
             </div>
-          </div>
           </Fade>
         </>
       ) : (

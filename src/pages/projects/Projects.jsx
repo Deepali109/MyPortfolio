@@ -2,11 +2,9 @@ import React from "react";
 import img1 from "../../images/house_Img.jpg";
 import img2 from "../../images/weather.png";
 import img3 from "../../images/netflix.png";
-import video1 from "../../video/video1.mp4";
 import { Element } from "react-scroll";
 import { Link } from "react-router-dom";
-// import { Link } from "react-router-dom";
-import MernProject from "./MernProject";
+
 function Projects() {
   return (
     <>

@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { Link, Element } from "react-scroll";
 import { FaGithub } from "react-icons/fa";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 function Home() {
   return (
     <>

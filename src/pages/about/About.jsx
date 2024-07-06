@@ -1,12 +1,12 @@
 import React from "react";
 import image from "../../images/mypic.jpeg";
 import { Link, Element } from "react-scroll";
-import Jump from "react-reveal/Jump";
+import { Fade } from "react-awesome-reveal";
 // import "./about.css";
 function About() {
   return (
     <>
-      <Jump>
+      <Fade bottom>
         <Element name="about" className="element">
           <div className="flex flex-col h-auto  pb-20 items-center w-full mt-20">
             <div className="flex items-center justify-center mt-6 ml-6 h-14 w-44 pl-5 pr-5 border-transparent rounded-lg shadow-md shadow-cyan-300">
@@ -53,7 +53,7 @@ function About() {
             </div>
           </div>
         </Element>
-      </Jump>
+      </Fade>
     </>
   );
 }
