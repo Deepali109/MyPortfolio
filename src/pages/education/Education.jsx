@@ -67,7 +67,7 @@ function Education() {
                     </span>
                   </div>
                   <div className=" flex justify-between items-center">
-                    <span>Grade - 8.12</span>
+                    <span>Grade - 8.544</span>
                   </div>
                 </div>
               </VerticalTimelineElement>
