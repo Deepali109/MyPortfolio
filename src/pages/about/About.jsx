@@ -30,24 +30,32 @@ function About() {
               {/* right */}
               <div className=" mt-10">
                 <p className="text-sm font-semibold text-gray-300 sm:pl-10 sm:pr-10">
-                  I am a passionate and dedicated software engineer with [X
-                  years] of experience in [relevant technologies or programming
-                  languages]. My journey in software engineering began with a
-                  fascination for technology and a desire to create innovative
-                  solutions to real-world problems. Over the years, I have honed
-                  my skills in [specific areas of expertise, e.g., web
-                  development, mobile app development, etc.] and have
-                  successfully delivered robust and scalable software solutions
-                  for diverse projects.
+                  I am a dedicated and versatile Software Engineer with a robust
+                  foundation in Full-Stack Development. With a strong command of
+                  C++ programming and a passion for web development, I thrive in
+                  creating seamless and dynamic user experiences. My journey in
+                  the realm of technology has equipped me with a comprehensive
+                  skill set that spans across multiple languages, tools, and
+                  frameworks.
                 </p>
                 <p className="text-sm font-semibold text-gray-300 sm:pl-10 sm:pr-10">
-                  As a software engineer, I am driven by a commitment to
-                  excellence and a passion for solving complex problems. I am
-                  excited about the opportunity to contribute my skills and
-                  expertise to [mention any specific goals or projects you are
-                  interested in]. I am eager to take on new challenges, learn
-                  from experiences, and continue growing both personally and
-                  professionally in the dynamic field of software engineering.
+                  Proficient in a wide array of technologies, I excel in
+                  languages such as C, C++, HTML/CSS, and JavaScript, harnessing
+                  them alongside frameworks like ReactJS, NodeJS, and ExpressJS.
+                  My expertise extends to designing responsive and intuitive
+                  user interfaces using Bootstrap and Tailwind CSS, ensuring
+                  seamless user experiences across platforms. I am well-versed
+                  in database management systems including MongoDB and SQL,
+                  enabling efficient data storage and retrieval solutions for
+                  scalable applications.
+                </p>
+                <p className="text-sm font-semibold text-gray-300 sm:pl-10 sm:pr-10">
+                  Beyond technical prowess, I bring strong communication skills,
+                  a knack for problem-solving, and a penchant for innovative
+                  ideas to every project. I am driven by a passion for
+                  continuous learning and innovation, seeking to leverage my
+                  skills and experience to contribute meaningfully to future
+                  technological advancements.
                 </p>
               </div>
             </div>

@@ -31,11 +31,12 @@ function Home() {
 
               <div className="mt-4 ml-6 sm:w-[400px] md:w-[500px] lg:w-[800px]">
                 <h3 className="text-sm font-semibold text-gray-400 overflow-hidden text-balance">
-                  I am a passionate and results-driven software engineer with [X
-                  years] of experience in developing robust and scalable
-                  software solutions. My expertise lies in [mention your areas
-                  of expertise, e.g., full-stack development, web application
-                  development, etc.].
+                  Dedicated and versatile Software Engineer with a strong
+                  foundation in Full-Stack Development. Possesses a deep
+                  understanding of C++ programming and a passion for web
+                  development. Thrives in collaborative environments,
+                  effectively leading teams and fostering cohesive work dynamics
+                  to achieve project milestones.
                 </h3>
               </div>
             </Fade>

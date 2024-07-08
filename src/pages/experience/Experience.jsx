@@ -25,8 +25,8 @@ function Experience() {
                     Frontend Developer Intern(@Bharat Intern)
                   </h3>
                   <p className="text-gray-300 text-sm">
-                    • During my tenure at Bharat Intern as a Frontend Developer,
-                    I actively contributed to diverse projects, notably
+                    During my tenure at Bharat Intern as a Frontend Developer, I
+                    actively contributed to diverse projects, notably
                     spearheading the development of a Netflix homepage clone and
                     a user-friendly temperature converter website
                   </p>
@@ -39,9 +39,13 @@ function Experience() {
                     Frontend Developer Intern(@GSSOC'24)
                   </h3>
                   <p className="text-gray-300">
-                    Underwent a digital marketing course and started to work as
-                    a PPC and project manager in a local web studio. After 3
-                    months started my own freelance practice.
+                    Participating in GirlScript Summer Of Code has been an
+                    incredibly enriching experience. Over the three-month
+                    program, I had the opportunity to contribute to numerous
+                    open-source projects, working alongside skilled mentors who
+                    provided invaluable guidance and support. This experience
+                    not only enhanced my technical skills but also allowed me to
+                    collaborate with a diverse group of passionate developers.
                   </p>
                 </div>
               </div>
