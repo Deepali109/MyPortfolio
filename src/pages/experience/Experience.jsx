@@ -18,6 +18,21 @@ function Experience() {
               <div className="mt-12 w-4/6 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
                 <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px] ">
                   <h3 className="absolute text-wrap left-0 mr-4 text-lg text-teal-500 font-semibold">
+                    2024
+                  </h3>
+
+                  <h3 className="text-teal-400 text-md font-semibold">
+                    FullStack Developer Intern(ShipHere)
+                  </h3>
+                  <p className="text-gray-300 text-sm">
+                    As a full-stack developer at ShipHere, I work on real-world
+                    projects covering both front-end and back-end. I design and
+                    develop user-friendly, responsive interfaces, creating
+                    seamless user experiences tailored to diverse client needs.
+                  </p>
+                </div>
+                <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px] ">
+                  <h3 className="absolute text-wrap left-0 mr-4 text-lg text-teal-500 font-semibold">
                     2023
                   </h3>
 
@@ -31,7 +46,7 @@ function Experience() {
                     a user-friendly temperature converter website
                   </p>
                 </div>
-                <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
+                <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                   <h3 className="absolute left-0 text-lg text-teal-500 font-semibold">
                     2024
                   </h3>

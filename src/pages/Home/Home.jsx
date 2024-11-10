@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import resume from "../../assets/docs/Deepali_Sahu_Resume.pdf";
+import resume from "../../assets/docs/Deepali_RESUME (6).pdf";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { Link, Element } from "react-scroll";
@@ -48,16 +48,20 @@ function Home() {
                   size={20}
                   className="text-white hover:text-neon hover:shadow-blue-200 hover:shadow-md cursor-pointer"
                 />
-                <FaLinkedin
-                  color="white"
-                  size={20}
-                  className="text-white hover:text-neon hover:shadow-blue-200 hover:shadow-md cursor-pointer"
-                />
-                <FaGithub
-                  color="white"
-                  size={20}
-                  className="text-white hover:text-neon hover:shadow-blue-200 hover:shadow-md cursor-pointer"
-                />
+                <a href="https://www.linkedin.com/in/deepali-sahu-a2094927a/">
+                  <FaLinkedin
+                    color="white"
+                    size={20}
+                    className="text-white hover:text-neon hover:shadow-blue-200 hover:shadow-md cursor-pointer"
+                  />
+                </a>
+                <a href="https://github.com/Deepali109">
+                  <FaGithub
+                    color="white"
+                    size={20}
+                    className="text-white hover:text-neon hover:shadow-blue-200 hover:shadow-md cursor-pointer"
+                  />
+                </a>
               </div>
 
               <div className="flex ml-6 mt-8 gap-3">
