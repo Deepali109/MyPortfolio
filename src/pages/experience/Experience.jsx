@@ -17,23 +17,39 @@ function Experience() {
             <div className="w-full h-auto flex items-center justify-center mt-10">
               <div className="mt-12 w-4/6 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
                 <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px] ">
-                  <h3 className="absolute text-wrap left-0 mr-4 text-lg text-teal-500 font-semibold">
-                    2024
+                  <h3 className="absolute text-wrap -left-8 mr-4 text-lg text-teal-500 font-semibold">
+                    Oct 2024
                   </h3>
 
                   <h3 className="text-teal-400 text-md font-semibold">
-                    FullStack Developer Intern(ShipHere)
+                    FullStack Developer Intern(Transportix Solutions Technology
+                    pvt ltd)
                   </h3>
                   <p className="text-gray-300 text-sm">
-                    As a full-stack developer at ShipHere, I work on real-world
+                    As a 3-month full-stack developer, I work on real-world
                     projects covering both front-end and back-end. I design and
                     develop user-friendly, responsive interfaces, creating
                     seamless user experiences tailored to diverse client needs.
                   </p>
                 </div>
+                <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
+                  <h3 className="absolute text-lg text-teal-500 -left-8  font-semibold">
+                    July 2024
+                  </h3>
+                  <h3 className="text-teal-400 text-md font-semibold">
+                    Frontend Developer Intern(SearchAI)
+                  </h3>
+                  <p className="text-gray-300">
+                    During my one-month tenure as a Frontend Developer at
+                    SearchAI, I worked on building scalable APIs and dynamic
+                    user interfaces using the MERN stack and Next.js
+                    technologies, enhancing my technical skills and
+                    understanding of industry practices.
+                  </p>
+                </div>
                 <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px] ">
-                  <h3 className="absolute text-wrap left-0 mr-4 text-lg text-teal-500 font-semibold">
-                    2023
+                  <h3 className="absolute text-wrap -left-8  mr-4 text-lg text-teal-500 font-semibold">
+                    Aug 2023
                   </h3>
 
                   <h3 className="text-teal-400 text-md font-semibold">
@@ -44,23 +60,6 @@ function Experience() {
                     actively contributed to diverse projects, notably
                     spearheading the development of a Netflix homepage clone and
                     a user-friendly temperature converter website
-                  </p>
-                </div>
-                <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                  <h3 className="absolute left-0 text-lg text-teal-500 font-semibold">
-                    2024
-                  </h3>
-                  <h3 className="text-teal-400 text-md font-semibold">
-                    Frontend Developer Intern(@GSSOC'24)
-                  </h3>
-                  <p className="text-gray-300">
-                    Participating in GirlScript Summer Of Code has been an
-                    incredibly enriching experience. Over the three-month
-                    program, I had the opportunity to contribute to numerous
-                    open-source projects, working alongside skilled mentors who
-                    provided invaluable guidance and support. This experience
-                    not only enhanced my technical skills but also allowed me to
-                    collaborate with a diverse group of passionate developers.
                   </p>
                 </div>
               </div>

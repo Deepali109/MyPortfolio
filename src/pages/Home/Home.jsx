@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import resume from "../../assets/docs/Deepali_RESUME (6).pdf";
+import resume from "../../assets/docs/Deepali_resume2.pdf";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { Link, Element } from "react-scroll";
