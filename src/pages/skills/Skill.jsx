@@ -9,6 +9,10 @@ import img7 from "../../images/Expressjs_logo.png";
 import img8 from "../../images/mongodb_logo.png";
 import img9 from "../../images/react_logo.png";
 import img10 from "../../images/tailwind_logo.png";
+import img11 from "../../images/nextJs.png";
+import img12 from "../../images/redux.png";
+import img13 from "../../images/sql.png";
+import img14 from "../../images/TY.png";
 import { Link, Element } from "react-scroll";
 import { Roll } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
@@ -121,10 +125,50 @@ function Skill() {
                 <Fade bottom>
                   <div className="flex flex-col items-center hover:shadow-lg p-2 rounded-xl hover:shadow-gray-400">
                     <div className="bg-white flex items-center justify-center h-16 w-16 rounded-full">
+                      <img src={img12} className="w-14 h-14"></img>
+                    </div>
+                    <h3 className="text-sm font-semibold text-yellow-200">
+                      Redux
+                    </h3>
+                  </div>
+                </Fade>
+                <Fade bottom>
+                  <div className="flex flex-col items-center hover:shadow-lg p-2 rounded-xl hover:shadow-gray-400">
+                    <div className="bg-white flex items-center justify-center h-16 w-16 rounded-full">
                       <img src={img10} className="w-14 h-14"></img>
                     </div>
                     <h3 className="text-sm font-semibold text-yellow-200">
                       Tailwind CSS
+                    </h3>
+                  </div>
+                </Fade>
+                <Fade bottom>
+                  <div className="flex flex-col items-center hover:shadow-lg p-2 rounded-xl hover:shadow-gray-400">
+                    <div className="bg-white flex items-center justify-center h-16 w-16 rounded-full">
+                      <img src={img11} className="w-12 h-12"></img>
+                    </div>
+                    <h3 className="text-sm font-semibold text-yellow-200">
+                      NextJS
+                    </h3>
+                  </div>
+                </Fade>
+                <Fade bottom>
+                  <div className="flex flex-col items-center hover:shadow-lg p-2 rounded-xl hover:shadow-gray-400">
+                    <div className="bg-white flex items-center justify-center h-16 w-16 rounded-full">
+                      <img src={img13} className="w-16 h-16"></img>
+                    </div>
+                    <h3 className="text-sm font-semibold text-yellow-200">
+                      SQL
+                    </h3>
+                  </div>
+                </Fade>
+                <Fade bottom>
+                  <div className="flex flex-col items-center hover:shadow-lg p-2 rounded-xl hover:shadow-gray-400">
+                    <div className="bg-white flex items-center justify-center h-16 w-16 rounded-full">
+                      <img src={img14} className="w-16 h-16"></img>
+                    </div>
+                    <h3 className="text-sm font-semibold text-yellow-200">
+                      TypeScript
                     </h3>
                   </div>
                 </Fade>
